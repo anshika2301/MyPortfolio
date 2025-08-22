@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 backdrop-blur bg-white/60 border-b border-slate-200">
       <nav className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <a href="#hero" className="font-bold text-brand-700 text-lg">
+        <a href="#hero" className="font-bold  text-2xl bg-gradient-to-r from-green-500 via-purple-400 to-indigo-500 bg-clip-text text-transparent">
           Portfolio
         </a>
         <div className="flex items-center gap-4">

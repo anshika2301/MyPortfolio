@@ -10,11 +10,11 @@ const Hero = () => {
       <img
         src="pic.jpg" // ✅ replace with actual image
         alt="Avani Verma - Software Engineer"
-        className="w-46 h-46 md:w-59 md:h-59 p-1 bg-gradient-to-r from-pink-300 via-purple-200 to-indigo-300 rounded-full shadow-lg mb-6 object-cover"
+        className="w-46 h-46 md:w-59 md:h-59 p-1 hover:scale-105 hover:rotate-5 hover:grayscale-0 grayscale hover:shadow-2xl transition duration-600 bg-gradient-to-r from-pink-300 via-purple-200 to-indigo-300 rounded-full shadow-lg mb-6 object-cover"
       />
 
       {/* Name */}
-      <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-teal-600 via-teal-300 to-purple-400">
+      <h1 className="text-4xl md:text-5xl font-extrabold  hover:scale-105 drop-shadow-md leading-tight text-transparent bg-clip-text bg-gradient-to-r from-teal-600 via-teal-300 to-purple-400">
         Anshika Verma
       </h1>
 

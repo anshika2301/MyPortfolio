@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Typing Speed Race",
     description:
-      "A modern cultural fest website built with React, Node.js, Express, and MongoDB. Features include user authentication, event registration, and secure payment processing.",
+      "A fun typing game  where your typing speed decides how fast you race ahead.",
     image: "game.png", // put this in public/images/
     tech: ["React", "Tailwind", "JavaScript", "HTML"],
     demoLink: "https://speedtypingracer.netlify.app/",
@@ -22,7 +22,7 @@ const projects = [
   {
     title: " AI-Image Generator",
     description:
-      "A real-time weather application that provides accurate forecasts, interactive maps, and detailed analytics for multiple locations.",
+      "An AI-powered image generator that transforms text prompts into unique visuals .  ",
     image: "image-generator.png",
     tech: ["React", "Tailwind", "JavaScript", "HTML"],
     demoLink: "https://imagegeneratorbyanshika.netlify.app/",
