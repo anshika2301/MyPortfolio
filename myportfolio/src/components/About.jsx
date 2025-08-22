@@ -7,11 +7,11 @@ const About = () => {
         <div className="order-2 md:order-1">
           <h2 className="text-3xl font-bold text-slate-900">About Me</h2>
           <p className="mt-4 text-slate-600">
-            I’m a developer focused on crafting UI that feels calm and clear. Inspired by minimalist learning sites,
-            my work emphasizes strong layout, readable type, and smooth motion.
+            I am a full-stack developer passionate about building modern web applications with React, Vite, Tailwind, Node.js, Express, and MongoDB.
+
           </p>
           <p className="mt-4 text-slate-600">
-            I enjoy React, Vite, Tailwind, and a11y-first design.
+            Focused on crafting UIs that feel calm and clear, I blend creativity with scalable code to deliver seamless digital experiences.
           </p>
         </div>
         <div className="order-1 md:order-2">
