@@ -69,14 +69,7 @@ const Contact = () => {
           </ul>
 
           {/* Social Icons */}
-          <div className="flex space-x-6 mt-6">
-            <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
-              <Github className="w-6 h-6 text-gray-700 hover:text-black transition" />
-            </a>
-            <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
-              <Linkedin className="w-6 h-6 text-gray-700 hover:text-blue-700 transition" />
-            </a>
-          </div>
+          
         </div>
 
         {/* Right Section - Form */}

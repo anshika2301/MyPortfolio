@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className="order-1 md:order-2">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-slate-200/50 to-transparent blur-2xl rounded-2xl" aria-hidden></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-200/50 to-transparent blur-xl rounded-2xl" aria-hidden></div>
             <img className="relative rounded-2xl shadow-lg w-full h-auto object-cover 
             [mask-image:radial-gradient(circle,white,transparent)]"
                  src="bg2.jpg"
