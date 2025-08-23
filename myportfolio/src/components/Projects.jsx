@@ -1,6 +1,15 @@
 import React from "react";
 
 const projects = [
+   {
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website showcasing my skills, projects, and achievements with a clean, responsive design. Built using modern web technologies for seamless performance across devices.",
+    image: "portfolio.png",
+    tech: ["React", "JavaScript", "Express","Node.js"],
+    demoLink: "https://anshika-portfolio-a4x7.onrender.com/",
+    codeLink: "https://github.com/anshika2301/MyPortfolio",
+  },
   {
     title: "Typing Speed Race",
     description:
@@ -10,6 +19,7 @@ const projects = [
     demoLink: "https://speedtypingracer.netlify.app/",
     codeLink: "https://github.com/anshika2301/Game-Typingrace",
   },
+   
   {
     title: "Weather App",
     description:
