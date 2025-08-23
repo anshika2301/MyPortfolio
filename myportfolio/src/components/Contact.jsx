@@ -3,38 +3,39 @@ import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
 const Contact = () => {
   // Handle form submission
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+ const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    const formData = new FormData(e.target);
+  const formData = new FormData(e.target);
 
-    const dataToSend = {
-      name: formData.get("name"),
-      email: formData.get("email"),
-      subject: formData.get("subject"),
-      message: formData.get("message"),
-    };
+  const dataToSend = {
+    name: formData.get("name"),
+    email: formData.get("email"),
+    subject: formData.get("subject"),
+    message: formData.get("message"),
+  };
 
-    try {
-      const res = await fetch("http://localhost:5000/send", {
+ try {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(dataToSend),
       });
 
-      const data = await res.json();
+    const data = await res.json();
 
-      if (data.success) {
-        alert("Message sent successfully!");
-        e.target.reset();
-      } else {
-        alert(data.error || "Failed to send message.");
-      }
-    } catch (err) {
-      console.error(err);
-      alert("Something went wrong!");
+    if (data.success) {
+      alert("Message sent successfully!");
+      e.target.reset();
+    } else {
+      alert(data.error || "Failed to send message.");
     }
-  };
+  } catch (err) {
+    console.error(err);
+    alert("Something went wrong!");
+  }
+};
+
 
   return (
     <section id="contact" className="py-20 bg-white/80">
