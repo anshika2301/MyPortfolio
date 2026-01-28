@@ -2,13 +2,13 @@ import React from "react";
 
 const projects = [
    {
-    title: "Portfolio Website",
+    title: "Job Portal",
     description:
-      "A personal portfolio website showcasing my skills, projects, and achievements with a clean, responsive design. Built using modern web technologies for seamless performance across devices.",
-    image: "portfolio.png",
-    tech: ["React", "JavaScript", "Express","Node.js"],
-    demoLink: "https://anshika-portfolio-a4x7.onrender.com/",
-    codeLink: "https://github.com/anshika2301/MyPortfolio",
+      "A scalable full-stack job portal designed to streamline hiring by enabling job postings, applications, and secure user authentication. Developed with React, Node.js, Express, and MongoDB, focusing on performance and usability.",
+    image: "jobPortal.png",
+    tech: ["HTML", "CSS", "JavaScript (React.js)", "Node.js", "Express.js", "MongoDB", "Mongoose"],
+    demoLink: "https://job-portal-client-nu-nine.vercel.app/",
+    codeLink: "https://github.com/anshika2301/JOB-PORTAL",
   },
   {
     title: "Typing Speed Race",
