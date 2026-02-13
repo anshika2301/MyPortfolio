@@ -34,8 +34,8 @@ const Hero = () => {
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-8">
         {/* Hire Me */}
         <a
-          href="mailto:avani.verma@example.com" // ✅ replace with your email
-          aria-label="Send an email to Avani Verma"
+          href="mailto:vermaavani92@gmail.com" // ✅ replace with your email
+          aria-label="Send an email to Anshika Verma"
           className="px-6 py-3 rounded-lg bg-blue-500 text-white font-medium shadow-md hover:bg-brand-700 transition flex items-center gap-2"
         >
           ✉️ Hire Me
@@ -43,7 +43,7 @@ const Hero = () => {
 
         {/* Download Resume */}
         <a
-          href="resume.pdf" // ✅ place resume in public folder
+          href="Resume_corrected2" // ✅ place resume in public folder
           download
           aria-label="Download Anshika Verma's resume"
           className="px-6 py-3 rounded-lg border bg-blue-100 border-blue-400 text-brand-600 font-medium hover:bg-brand-50 transition flex items-center gap-2"
